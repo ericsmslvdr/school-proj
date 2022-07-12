@@ -55,7 +55,7 @@ public class SimpleSaleTransac {
         } while (isBuying);
     }
 
-    public static int calcTotal(int qty, int prodAmnt) {
+    public static void calcTotal(int qty, int prodAmnt) {
         int totalAmnt = prodAmnt * qty;
 
         System.out.println("Total amount : " + totalAmnt);
@@ -68,8 +68,6 @@ public class SimpleSaleTransac {
             int change = tendered - totalAmnt;
             System.out.println("Change : " + change);
         }
-
-        return 0;
     }
 
     public static boolean isBuying(String ans) {

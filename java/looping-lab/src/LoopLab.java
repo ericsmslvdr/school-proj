@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class LoopLab {
+
     public static void main(String[] args) {
         Scanner input = new java.util.Scanner(System.in);
         int sum = 0;
@@ -11,9 +13,9 @@ public class LoopLab {
 
         for (int i = 1; i <= num; i++) {
             System.out.println(i);
-            sum = sum + i;
+            sum += i;
         }
-        
+
         System.out.println("Sum is: " + sum);
     }
 }

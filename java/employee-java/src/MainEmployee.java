@@ -5,7 +5,6 @@ public class MainEmployee {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
-        String unionName;
         int unionNum;
         int empType;
         int sub;

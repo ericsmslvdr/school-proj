@@ -18,6 +18,15 @@ public class PartTime extends Employee {
         return salary;
     }
 
+    public boolean checkUnionStatus(int unionNum) {
+        boolean isUnionMem = false;
+        if (unionNum == 1) {
+            isUnionMem = true;
+        }
+        return isUnionMem;
+    }
+
+    @Override
     public String getEmployeeSalaryInfo() {
         return "\nName of the Employee: "
                 + getName()
@@ -25,13 +34,5 @@ public class PartTime extends Employee {
                 + computedPay
                 + "\nUnion Member Status: "
                 + unionStatus;
-    }
-    
-    public boolean checkUnionStatus(int unionNum) {
-        boolean isUnionMem = false;
-        if (unionNum == 1) {
-            isUnionMem = true;
-        }
-        return isUnionMem;
     }
 }

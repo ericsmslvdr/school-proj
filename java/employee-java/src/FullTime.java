@@ -23,6 +23,7 @@ public class FullTime extends Employee {
         return salary;
     }
 
+    @Override
     public String getEmployeeSalaryInfo() {
         return "\nName of the Employee: "
                 + getName()

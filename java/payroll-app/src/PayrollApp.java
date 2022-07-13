@@ -1,7 +1,10 @@
+
 import java.util.Scanner;
 
 public class PayrollApp {
+
     public static Scanner input;
+
     public static void main(String[] args) {
         input = new Scanner(System.in);
 
@@ -57,7 +60,7 @@ public class PayrollApp {
         System.out.println("Basic Pay: " + basicPay);
 
         System.out.println("________________________");
-        System.out.println("Gross Pay: " + basicPay );
+        System.out.println("Gross Pay: " + basicPay);
     }
 
     public static void outputEmp(String empName, Double basicPay, Double overTimePay, Double grossPay) {
@@ -68,6 +71,6 @@ public class PayrollApp {
         System.out.println("Overtime Pay: " + overTimePay);
 
         System.out.println("________________________");
-        System.out.println("Gross Pay: " + grossPay );
+        System.out.println("Gross Pay: " + grossPay);
     }
 }
